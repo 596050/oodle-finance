@@ -4,14 +4,20 @@
   "scripts": {
     "dev": "next",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "format": "npx prettier --write \"**/*.{js,jsx,json}\"",
+    "lint": "eslint \"**/*.{js,jsx}\" --fix"
   },
   "dependencies": {
+    "lodash.isequal": "^4.5.0",
     "next": "latest",
     "react": "latest",
     "react-dom": "latest",
     "react-is": "latest",
-    "styled-components": "^5.0.0"
+    "react-virtual": "^2.7.1",
+    "styled-components": "^5.0.0",
+    "styled-system": "^5.1.5",
+    "swr": "^0.5.6"
   },
   "devDependencies": {
     "babel-plugin-styled-components": "^1.8.0"
