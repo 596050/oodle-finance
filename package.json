@@ -9,12 +9,10 @@
     "lint": "eslint \"**/*.{js,jsx}\" --fix"
   },
   "dependencies": {
-    "lodash.isequal": "^4.5.0",
     "next": "latest",
     "react": "latest",
     "react-dom": "latest",
     "react-is": "latest",
-    "react-virtual": "^2.7.1",
     "styled-components": "^5.0.0",
     "styled-system": "^5.1.5",
     "swr": "^0.5.6"
